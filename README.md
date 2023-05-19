@@ -36,4 +36,8 @@ yarn run dev
 ```
 
 
-Open your browser and visit http://localhost:8000 to see your Laravel application in action.
+Open your browser and visit http://localhost:5173 to see your Laravel application in action.
+
+
+## Backend Repo
+You can find the React.js frontend application [here](https://github.com/moxerox/News-Aggregator-Backend)
