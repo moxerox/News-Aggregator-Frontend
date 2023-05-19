@@ -5,8 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        news:'#FFF1C5'
+      }
+    },
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/typography"), 
+    require("daisyui")
+  ],
 }
 
